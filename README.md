@@ -64,4 +64,9 @@ for Futures data change WebSocket to wss://fstream.binance.com/ws/${stream}
           ws.on('close', () => setTimeout(() => connectStream(stream, handler), 2000));
         }
 
+
+# to Start simply type;
+        node start_terminal.mjs 
 that's it thanks 
+
+
